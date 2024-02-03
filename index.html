@@ -1,14 +1,22 @@
 <head>
-
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
-    <marquee>
+    <marquee direction="up">
         <h1>
-            My learning list.
+            My learning list...
         </h1>
     </marquee>
-    <h2 style="color: blueviolet;">
+    <!-- <h2 style="color: blueviolet;">
         Github
     </h2>
     <h2>
@@ -16,5 +24,49 @@
     </h2>
     <h2>
         AWS
-    </h2>
+    </h2> -->
+
+    <table style="width=100%">
+        <tr>
+            <th>Sr.No.</th>
+            <th>Technology</th>
+            <th>Sub-points</th>
+            <th>Icon</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Github</td>
+            <td>
+                <div>Commands</div>
+                <div>Create repository</div>
+                <div>Create branch</div>
+                <div>Merge branch</div>
+            </td>
+            <td> <img src="./images/github.png" alt="github"</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>API</td>
+            <td>
+                <div>API types</div>
+                <div>Postman</div>
+                <div>Datadriven variable</div>
+                <div>Examples of API tests</div>
+            </td>
+            <td><img src="./images/api.png" alt="api"</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>AWS</td>
+            <td>
+                <div>Certification</div>
+                <div>Cloud engineer essentials</div>
+                <div>AWS concepts</div>
+                <div>Hands on Tool experience</div>
+            </td>
+            <td><img src="./images/aws.png" alt="aws"</td>
+        </tr>
+
+
+    </table>
 </body>
